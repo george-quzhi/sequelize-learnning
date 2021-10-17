@@ -1,6 +1,6 @@
 # Sequelize 总结
 
-Sequelize 是一个基于 promise 的 Node.js ORM, 目前支持 Postgres, MySQL, MariaDB, SQLite 以及 Microsoft SQL Server. 
+Sequelize 是一个基于 promise 的 Node.js ORM (Object-Relational Mapping，把关系数据库的表结构映射到对象上), 目前支持 Postgres, MySQL, MariaDB, SQLite 以及 Microsoft SQL Server. 
 它具有强大的事务支持, 关联关系, 预读和延迟加载,读取复制等功能。
 Sequelize 遵从 语义版本控制。 支持 Node v10 及更高版本以便使用 ES6 功能。
 
