@@ -6,6 +6,28 @@ Sequelize 是一个基于 promise 的 Node.js ORM (Object-Relational Mapping，�
 它具有强大的事务支持, 关联关系, 预读和延迟加载,读取复制等功能。  
 Sequelize 遵从 语义版本控制。 支持 Node v10 及更高版本以便使用 ES6 功能。  
 
+## 文档
+
+# English (OFFICIAL)
+https://sequelize.org/master
+
+# 中文文档 (UNOFFICIAL)
+https://github.com/demopark/sequelize-docs-Zh-CN
+
+
+
+## Installation
+$ npm i sequelize # This will install v6
+
+# And one of the following:
+$ npm i pg pg-hstore # Postgres
+$ npm i mysql2
+$ npm i mariadb
+$ npm i sqlite3
+$ npm i tedious # Microsoft SQL Server
+
+
+
 ## 配置
 
 ```typescript
