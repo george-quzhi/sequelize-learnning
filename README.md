@@ -14,8 +14,6 @@ https://sequelize.org/master
 ### 中文文档 (UNOFFICIAL)
 https://github.com/demopark/sequelize-docs-Zh-CN
 
-
-
 ## Installation
 
 $ npm i sequelize # This will install v6
@@ -28,7 +26,14 @@ $ npm i mariadb
 $ npm i sqlite3  
 $ npm i tedious # Microsoft SQL Server  
 
-我们以mysql举例  
+## 术语
+
+### 模型
+模型是 Sequelize 的本质. 模型是代表数据库中表的抽象. 在 Sequelize 中,它是一个 Model 的扩展类.
+### 模型实例
+模型是 ES6 类. 类的实例表示该模型中的一个对象(该对象映射到数据库中表的一行).
+### 关联
+模型（表）间的关联关系。标准关联关系: 一对一, 一对多 和 多对多.
 
 ## 配置
 
