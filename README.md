@@ -22,13 +22,13 @@ $ npm i sequelize # This will install v6
 `
 ### And one of the following:
 `
-$ npm i pg pg-hstore # Postgres
-$ npm i mysql2
-$ npm i mariadb
-$ npm i sqlite3
-$ npm i tedious # Microsoft SQL Server
+$ npm i pg pg-hstore # Postgres  
+$ npm i mysql2  
+$ npm i mariadb  
+$ npm i sqlite3  
+$ npm i tedious # Microsoft SQL Server  
 `
-
+我们以mysql举例  
 
 ## 配置
 
