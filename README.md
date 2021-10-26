@@ -8,10 +8,10 @@ Sequelize 遵从 语义版本控制。 支持 Node v10 及更高版本以便使�
 
 ## 文档
 
-# English (OFFICIAL)
+### English (OFFICIAL)
 https://sequelize.org/master
 
-# 中文文档 (UNOFFICIAL)
+### 中文文档 (UNOFFICIAL)
 https://github.com/demopark/sequelize-docs-Zh-CN
 
 
