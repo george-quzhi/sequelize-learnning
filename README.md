@@ -1,12 +1,20 @@
 # Sequelize 总结
 
+## 前言
+以下总结是我个人的学习笔记，有不准确和遗漏的地方欢迎指正。
+
 ## Why Sequelize？
 Sequelize 是一个基于 promise 的 Node.js ORM (Object-Relational Mapping，把关系数据库的表结构映射到对象上)  
 目前支持 Postgres, MySQL, MariaDB, SQLite 以及 Microsoft SQL Server.   
 它具有强大的事务支持, 关联关系, 预读和延迟加载,读取复制等功能。  
 Sequelize 遵从 语义版本控制。 支持 Node v10 及更高版本以便使用 ES6 功能。  
 
-## 文档
+### 受益对象
+1. 只拥有前端技术栈，想学习后端技术的前端开发者。
+2. 会SQL和JAVA后端开发，想拓展nodejs相关技术栈的后端开发者。
+3. MEAN栈开发者
+
+## 说明文档
 
 ### English (OFFICIAL)
 https://sequelize.org/master
@@ -82,6 +90,9 @@ try {
   console.error("Unable to connect to the database:", error);
 }
 ```
+
+## 实例——跬步
+
 
 ## 模型
 
@@ -184,7 +195,9 @@ Foo.hasOne(Bar, {
 });
 // "fooId" INTEGER NOT NULL REFERENCES "foos" ("id") ON DELETE RESTRICT ON UPDATE RESTRICT
 ```
-
+### 关联新增
+### 关联删除
+### 关联更新
 ### 关联查询
 
 #### 别名
